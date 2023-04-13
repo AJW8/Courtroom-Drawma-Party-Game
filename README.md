@@ -1,6 +1,6 @@
 # Courtroom-Drawma-Party-Game
 
-##A local server-based drawing/presentation party game experience built using Node.js and Socket.IO.
+## A local server-based drawing/presentation party game experience built using Node.js and Socket.IO.
 
 This project was built from my previous party game template at https://github.com/AJW8/Party-Game-Template.
 
