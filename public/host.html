@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Courtroom Drawma</title>
+		<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, width=device-width">	
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="css/spinkit.css">
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.plugin.min.js"></script>
+		<script src="js/jquery.countdown.min.js"></script>
+		<script src="socket.io/socket.io.js"></script>
+		<script src="js/game/host.js"></script>
+	</head>
+	<body>
+		<div align="center">
+			<div id="room_code"></div>
+			<div id="lobby">
+				<div id="lobby_players"></div>
+				<div id="lobby_audience"></div>
+				<div id="start_game">
+					<button id="btn_start_game" class="btn btn-default"></button>
+				</div>
+			</div>
+			<div id="game_start">
+				<div id="game">
+					<div id="game_audience_count"></div>
+					<div id="intro"></div>
+					<div id="complete_tasks">
+						<div id="task"></div>
+						<div id="players_finished"></div>
+					</div>
+					<div id="case_intro">
+						<div id="plaintiff"></div>
+						<div id="defendant"></div>
+						<div id="charges"></div>
+					</div>
+					<div id="case_presentation">
+						<div id="case_prompt"></div>
+						<div><canvas id="case_presentation_canvas" width="500" height="500"/></div>
+					</div>
+					<div id="judge_case">
+						<div id="plaintiff_case">
+							<div id="case_plaintiff"></div>
+							<div><canvas id="case_plaintiff_canvas" width="500" height="500"/></div>
+							<div id="case_plaintiff_votes"></div>
+							<div id="case_plaintiff_score"></div>
+						</div>
+						<div id="defendant_case">
+							<div id="case_defendant"></div>
+							<div><canvas id="case_defendant_canvas" width="500" height="500"/></div>
+							<div id="case_defendant_votes"></div>
+							<div id="case_defendant_score"></div>
+						</div>
+						<div id="judge_case_prompt"><p>Time for the jury to decide. Vote now!<p></div>
+						<div id="judge_case_audience_votes"></div>
+					</div>
+					<div id="vote_cases">
+						<div id="case1">
+							<div id="case_lawyers1"></div>
+							<div><canvas id="case_plaintiff_canvas1" width="100" height="100"/></div>
+							<div><canvas id="case_defendant_canvas1" width="100" height="100"/></div>
+							<div id="case_charges1"></div>
+							<div id="case_votes1"></div>
+							<div id="case_score1"></div>
+						</div>
+						<div id="case2">
+							<div id="case_lawyers2"></div>
+							<div><canvas id="case_plaintiff_canvas2" width="100" height="100"/></div>
+							<div><canvas id="case_defendant_canvas2" width="100" height="100"/></div>
+							<div id="case_charges2"></div>
+							<div id="case_votes2"></div>
+							<div id="case_score2"></div>
+						</div>
+						<div id="case3">
+							<div id="case_lawyers3"></div>
+							<div><canvas id="case_plaintiff_canvas3" width="100" height="100"/></div>
+							<div><canvas id="case_defendant_canvas3" width="100" height="100"/></div>
+							<div id="case_charges3"></div>
+							<div id="case_votes3"></div>
+							<div id="case_score3"></div>
+						</div>
+						<div id="case4">
+							<div id="case_lawyers4"></div>
+							<div><canvas id="case_plaintiff_canvas4" width="100" height="100"/></div>
+							<div><canvas id="case_defendant_canvas4" width="100" height="100"/></div>
+							<div id="case_charges4"></div>
+							<div id="case_votes4"></div>
+							<div id="case_score4"></div>
+						</div>
+						<div id="case5">
+							<div id="case_lawyers5"></div>
+							<div><canvas id="case_plaintiff_canvas5" width="100" height="100"/></div>
+							<div><canvas id="case_defendant_canvas5" width="100" height="100"/></div>
+							<div id="case_charges5"></div>
+							<div id="case_votes5"></div>
+							<div id="case_score5"></div>
+						</div>
+						<div id="case6">
+							<div id="case_lawyers6"></div>
+							<div><canvas id="case_plaintiff_canvas6" width="100" height="100"/></div>
+							<div><canvas id="case_defendant_canvas6" width="100" height="100"/></div>
+							<div id="case_charges6"></div>
+							<div id="case_votes6"></div>
+							<div id="case_score6"></div>
+						</div>
+						<div id="case7">
+							<div id="case_lawyers7"></div>
+							<div><canvas id="case_plaintiff_canvas7" width="100" height="100"/></div>
+							<div><canvas id="case_defendant_canvas7" width="100" height="100"/></div>
+							<div id="case_charges7"></div>
+							<div id="case_votes7"></div>
+							<div id="case_score7"></div>
+						</div>
+						<div id="case8">
+							<div id="case_lawyers8"></div>
+							<div><canvas id="case_plaintiff_canvas8" width="100" height="100"/></div>
+							<div><canvas id="case_defendant_canvas8" width="100" height="100"/></div>
+							<div id="case_charges8"></div>
+							<div id="case_votes8"></div>
+							<div id="case_score8"></div>
+						</div>
+						<div id="vote_cases_prompt"><p>To conclude the round, everyone gets to select their favourite case. Vote now!</p></div>
+						<div id="vote_cases_audience_votes"></div>
+					</div>
+					<div id="winner"></div>
+					<button id="btn_continue" class="btn btn-default">Continue</button>
+				</div>
+				<div id="end">
+					<div id="final_scores"></div>
+					<button id="btn_same_players" class="btn btn-default">Same Players</button>
+					<button id="btn_new_players" class="btn btn-default">New Players</button>
+				</div>
+				<button id="btn_leave_game" class="btn btn-default">Leave Game</button>
+			</div>
+		</div>
+	</body>
+</html>

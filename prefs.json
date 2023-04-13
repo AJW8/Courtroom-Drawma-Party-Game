@@ -1,0 +1,179 @@
+{
+	"password": "password",
+	"min_players": "4",
+	"max_players": "8",
+	"stroke_colours": [
+		"red",
+		"lime",
+		"blue",
+		"yellow",
+		"magenta",
+		"cyan",
+		"darkorange",
+		"brown",
+		"purple",
+		"indigo"
+	],
+	"prompts": [
+		{
+			"part1": "Prompt 1 Part 1",
+			"part2": "Prompt 1 Part 2",
+			"autofills": [
+				"Prompt 1 Autofill 1",
+				"Prompt 1 Autofill 2"
+			]
+		},
+		{
+			"part1": "Prompt 2 Part 1",
+			"part2": "Prompt 2 Part 2",
+			"autofills": [
+				"Prompt 2 Autofill 1",
+				"Prompt 2 Autofill 2"
+			]
+		},
+		{
+			"part1": "Prompt 3 Part 1",
+			"part2": "Prompt 3 Part 2",
+			"autofills": [
+				"Prompt 3 Autofill 1",
+				"Prompt 3 Autofill 2"
+			]
+		},
+		{
+			"part1": "Prompt 4 Part 1",
+			"part2": "Prompt 4 Part 2",
+			"autofills": [
+				"Prompt 4 Autofill 1",
+				"Prompt 4 Autofill 2"
+			]
+		},
+		{
+			"part1": "Prompt 5 Part 1",
+			"part2": "Prompt 5 Part 2",
+			"autofills": [
+				"Prompt 5 Autofill 1",
+				"Prompt 5 Autofill 2"
+			]
+		},
+		{
+			"part1": "Prompt 6 Part 1",
+			"part2": "Prompt 6 Part 2",
+			"autofills": [
+				"Prompt 6 Autofill 1",
+				"Prompt 6 Autofill 2"
+			]
+		},
+		{
+			"part1": "Prompt 7 Part 1",
+			"part2": "Prompt 7 Part 2",
+			"autofills": [
+				"Prompt 7 Autofill 1",
+				"Prompt 7 Autofill 2"
+			]
+		},
+		{
+			"part1": "Prompt 8 Part 1",
+			"part2": "Prompt 8 Part 2",
+			"autofills": [
+				"Prompt 8 Autofill 1",
+				"Prompt 8 Autofill 2"
+			]
+		},
+		{
+			"part1": "Prompt 9 Part 1",
+			"part2": "Prompt 9 Part 2",
+			"autofills": [
+				"Prompt 9 Autofill 1",
+				"Prompt 9 Autofill 2"
+			]
+		},
+		{
+			"part1": "Prompt 10 Part 1",
+			"part2": "Prompt 10 Part 2",
+			"autofills": [
+				"Prompt 10 Autofill 1",
+				"Prompt 10 Autofill 2"
+			]
+		},
+		{
+			"part1": "Prompt 11 Part 1",
+			"part2": "Prompt 11 Part 2",
+			"autofills": [
+				"Prompt 11 Autofill 1",
+				"Prompt 11 Autofill 2"
+			]
+		},
+		{
+			"part1": "Prompt 12 Part 1",
+			"part2": "Prompt 12 Part 2",
+			"autofills": [
+				"Prompt 12 Autofill 1",
+				"Prompt 12 Autofill 2"
+			]
+		},
+		{
+			"part1": "Prompt 13 Part 1",
+			"part2": "Prompt 13 Part 2",
+			"autofills": [
+				"Prompt 13 Autofill 1",
+				"Prompt 13 Autofill 2"
+			]
+		},
+		{
+			"part1": "Prompt 14 Part 1",
+			"part2": "Prompt 14 Part 2",
+			"autofills": [
+				"Prompt 14 Autofill 1",
+				"Prompt 14 Autofill 2"
+			]
+		},
+		{
+			"part1": "Prompt 15 Part 1",
+			"part2": "Prompt 15 Part 2",
+			"autofills": [
+				"Prompt 15 Autofill 1",
+				"Prompt 15 Autofill 2"
+			]
+		},
+		{
+			"part1": "Prompt 16 Part 1",
+			"part2": "Prompt 16 Part 2",
+			"autofills": [
+				"Prompt 16 Autofill 1",
+				"Prompt 16 Autofill 2"
+			]
+		},
+		{
+			"part1": "Prompt 17 Part 1",
+			"part2": "Prompt 17 Part 2",
+			"autofills": [
+				"Prompt 17 Autofill 1",
+				"Prompt 17 Autofill 2"
+			]
+		},
+		{
+			"part1": "Prompt 18 Part 1",
+			"part2": "Prompt 18 Part 2",
+			"autofills": [
+				"Prompt 18 Autofill 1",
+				"Prompt 18 Autofill 2"
+			]
+		},
+		{
+			"part1": "Prompt 19 Part 1",
+			"part2": "Prompt 19 Part 2",
+			"autofills": [
+				"Prompt 19 Autofill 1",
+				"Prompt 19 Autofill 2"
+			]
+		},
+		{
+			"part1": "Prompt 20 Part 1",
+			"part2": "Prompt 20 Part 2",
+			"autofills": [
+				"Prompt 20 Autofill 1",
+				"Prompt 20 Autofill 2"
+			]
+		}
+	]
+}

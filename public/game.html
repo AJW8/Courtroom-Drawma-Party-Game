@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Courtroom Drawma</title>
+		<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, width=device-width">	
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="css/spinkit.css">
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.plugin.min.js"></script>
+		<script src="js/jquery.countdown.min.js"></script>
+		<script src="socket.io/socket.io.js"></script>
+		<script src="js/game/game.js"></script>
+	</head>
+	<body>
+		<div align="center">
+			<div id="title"></div>
+			<div id="lobby">Waiting for host to start the game.</div>
+			<div id="idle">COURTROOM DRAWMA</div>
+			<div id="complete_prompt">
+				<div id="prompt_part1"></div>
+				<input type="text" id="prompt_input" maxlength="30"/>
+				<div id="prompt_part2"></div>
+				<button id="btn_submit_prompt" class="btn btn-default">Submit</button>
+			</div>
+			<div id="completed_prompts">Thank you for your submissions.</div>
+			<div id="select_case">
+				<div id="case_defendant"></div>
+				<div><button id="btn_select_case1" class="btn btn-default"></button></div>
+				<div><button id="btn_select_case2" class="btn btn-default"></button></div>
+			</div>
+			<div id="selected_case">You have selected your case.</div>
+			<div id="plaintiff">You're the plaintiff for this lawsuit. Get ready to make your case!</div>
+			<div id="defendant">You're the defendant for this lawsuit. Get ready to make your case!</div>
+			<div id="make_case">
+				<p>Make your case now!</p>
+				<div><canvas id="drawing_canvas" width="500" height="500" style="border:1px solid black"/></div>
+				<div><button id="btn_undo" class="btn btn-default">Undo</button></div>
+				<div><button id="btn_finish_case" class="btn btn-default">Finish Case</button></div>
+			</div>
+			<div id="vote">
+				<div id="vote_prompt"></div>
+				<div><button id="btn_vote1" class="btn btn-default"></button></div>
+				<div><button id="btn_vote2" class="btn btn-default"></button></div>
+				<div><button id="btn_vote3" class="btn btn-default"></button></div>
+				<div><button id="btn_vote4" class="btn btn-default"></button></div>
+				<div><button id="btn_vote5" class="btn btn-default"></button></div>
+				<div><button id="btn_vote6" class="btn btn-default"></button></div>
+				<div><button id="btn_vote7" class="btn btn-default"></button></div>
+				<div><button id="btn_vote8" class="btn btn-default"></button></div>
+			</div>
+			<div id="voted">Thank you for voting!</div>
+			<div id="my_case">Please wait for the jury to vote.</div>
+			<div id="end">Thank you for playing!</div>
+		</div>
+	</body>
+</html>
